@@ -1,0 +1,43 @@
+<!-- HTML Example -->
+<html>
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://obniz.io/js/jquery-3.2.1.min.js"></script>
+    <script src="https://unpkg.com/obniz@3.x/obniz.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <style>
+      #online-status {
+        padding: 0 !important;
+      }
+    </style>
+
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="nav-wrapper">
+          <div id="obniz-debug"></div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <h4>リビング電気</h4>
+        <hr>
+        <h5>ON / OFF</h5>
+        <p>
+          <button id="light_turn" class="btn btn-primary btn-block　waves-effect waves-light">Run</button>
+        </p>
+        <h5>全灯</h5>
+        <p>
+          <button id="light_all" class="btn btn-primary btn-block">Run</button>
+        </p>
+
+      </div>
+    </main>
+    <script src="./code.js"></script>
+  </body>
+
+</html>
